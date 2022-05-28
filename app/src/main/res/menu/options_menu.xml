@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    normal menu options so we don't use menucatagory secondary
+don't have the same id of fragment and menu item-->
+
+    <item
+
+        android:title="Terms &amp; Conditions"
+        android:id="@+id/id_termsAndcondition"
+
+        app:showAsAction="never"/>
+
+
+
+
+    <!--    without menu catagory secondary when you back pressed from the settingsfragment
+it will go to the home fragment
+ have the same id of fragment and menu id-->
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+
+
+
+
+
+</menu>
